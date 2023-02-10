@@ -3,7 +3,7 @@ from tiny0.models import URL
 from secrets import choice
 
 # The characters used to generate the token
-token_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz_-"
+token_characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
 
 def gen_valid_token():
 	while True:
